@@ -1,4 +1,4 @@
-number = 7
+number = 98
 if number > 0:
     print(number, "is positive")
 elif number ==0:
@@ -8,8 +8,8 @@ else:
     
 pass
 
-number = 7
-if number < 0:
+number = -98
+if number < -100:
     print(number, "is positive")
 elif number ==0:
     print(number, "is zero")
@@ -29,7 +29,7 @@ else:
     pass
 number = 10
 if number > -0:
-    print(number1, "is positive")
+    print(number, "is positive")
 elif number ==0:
     print(number, "is zero")
 else:
