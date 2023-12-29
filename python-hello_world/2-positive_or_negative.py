@@ -1,37 +1,30 @@
-number = 98
-if number < -100:
-    print(number, "is positive")
-elif number ==0:
-    print(number, "is zero")
-else:
-    print(number, "is negative")
-# 2nd positive
-number = -98
-if number < -100:
-    print(number, "is positive")
-elif number ==0:
-    print(number, "is zero")
-else:
-    print(number, "is negative")
-    
-    pass
+import random
 
-number = 0
+# Assign a random signed number to the variable 'number' each time the program is executed
+number = random.randint(-100, 100)
+
+# Print whether the number is positive, zero, or negative
+print("{} is" .format(number), end=" ")
 if number > 0:
-    print(number, "is positive")
-elif number ==0:
-    print(number, "is zero")
+    print("positive")
+elif number == 0:
+    print("zero")
 else:
-    print(number, "is negative")
-    
-    pass
-number = 10 + hiss
-if number > -0:
-    print(number, "is positive")
-elif number ==0:
-    print(number, "is zero")
-else:
-    print(number, "is negative")
+    print("negative")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
     
