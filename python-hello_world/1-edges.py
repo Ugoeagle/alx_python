@@ -1,3 +1,4 @@
+
 Word= "holberton"
 First_3 = Word[:3]
 Last_2 = Word[-2:]
