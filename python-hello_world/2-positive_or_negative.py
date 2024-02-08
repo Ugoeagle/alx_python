@@ -1,16 +1,12 @@
+#!/usr/bin/python3
 import random
-
-# Assign a random signed number to the variable 'number' each time the program is executed
-number = random.randint(-100, 100)
-
-# Print whether the number is positive, zero, or negative
-print("{} is" .format(number), end=" ")
+number = random.randint(-10, 10)
 if number > 0:
-    print("positive")
-elif number == 0:
-    print("zero")
+    print(f"{number} is positive")
+elif number < 0:
+    print(f"{number} is negative")
 else:
-    print("negative")
+    print(f"{number} is zero")
 
 
 
